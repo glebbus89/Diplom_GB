@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  padding: 5px;
+  background: #fff7e0;
+  font-family: "Roboto";
+}
+
+.container {
+  width: 100%;
+  max-width: 1182px;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+  /* padding: 1rem 2rem;
+  background: blue; */
+  border-radius: 3px;
+  background-image: url(./img/wrapper_container.jpg);
+  background-repeat: no-repeat;
+
+}
+
+.title {
+  padding: 2rem 0;
+  /* background: #ffe336; */
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  border-radius: 3px;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 48px;
+
+
+}
+
+/* Компонент Start */
+
+.start-wrapper {
+  text-align: center;
+
+}
+
+.start-button {
+  padding: 3 rem 6 rem;
+  margin-bottom: 1 rem;
+  /* background: #ffe336; */
+  font-size: 5 rem;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  border-radius: 3px;
+}
+
+.start-button:hover {
+  background: #e5cc76;
+}
+
+.start-button:active {
+  background: #ffe336;
+}
+
+/* Компонент Question */
+
+.test-wrapper {
+  /* background: #e3e3e3; */
+  padding: 2rem;
+  margin: 0 auto;
+  width: 98%;
+  border-radius: 3px;
+}
+
+.question_subtitle {
+  text-align: center;
+  font-family: 'Roboto';
+}
+
+.question_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.question_title_span {
+  font-size: 28px;
+  font-family: 'Roboto';
+}
+
+
+.question-inputs {
+  padding: 1rem;
+  /* background: #ffffff; */
+  border-radius: 3px;
+  font-family: 'Roboto';
+  font-size: 24px;
+}
+
+label {
+  padding-left: 5px;
+  font-size: 1.2 rem;
+}
+
+.question-button {
+  text-align: right;
+}
+
+.question-button-next {
+  padding: 1 rem 2 rem;
+  margin-top: 1 rem;
+  background: #b91515;
+  /* color: rgb(93, 16, 16); */
+  font-size: 1.5 rem;
+  text-shadow: 1px 1px 2 px black;
+}
+
+.question-button-next:hover {
+  background: #e5cc76;
+}
+
+.question-button-next:active {
+  background: #ffe336;
+}
+
+/* Компонент Result */
+
+.result-wrapper {
+  text-align: center;
+  margin: 0 3 rem;
+}
+
+.result-title {
+  padding: 1rem 0 0 0;
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+
+.result-count {
+  margin: 1rem;
+  /* background: #ffffff; */
+  font-size: 7rem;
+  color: #000000;
+  border-radius: 3px;
+}
+
+.result-button {
+  padding: 1 rem 2 rem;
+  background: #ffe336;
+  color: white;
+  font-size: 1.5 rem;
+  text-shadow: 1px 1px 2px black;
+}
